@@ -3,68 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pavan Kumar | Elite Tech Portfolio</title>
+  <title>Pavan Kumar | Elite Hacker Portfolio</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- BACKGROUND -->
-  <div class="bg"></div>
+  <!-- MATRIX BACKGROUND -->
+  <canvas id="matrix"></canvas>
 
-  <!-- NAV -->
+  <!-- NAVBAR -->
   <nav>
     <h1>Pavan<span>.</span></h1>
     <div>
       <a href="#about">About</a>
-      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#terminal">Terminal</a>
       <a href="#connect">Connect</a>
     </div>
   </nav>
 
-  <!-- HERO -->
+  <!-- HERO SECTION -->
   <section class="hero">
     <h2>Hi, I'm</h2>
     <h1>Pavan Kumar</h1>
     <h3><span id="typing"></span></h3>
-    <a href="#connect" class="btn">Enter My World</a>
+    <a href="#projects" class="btn">View Projects</a>
   </section>
 
   <!-- ABOUT -->
   <section id="about" class="glass reveal">
     <h2>👨‍💻 About Me</h2>
     <p>
-      I’m deeply passionate about technology, ethical hacking, and digital systems.
-      I enjoy learning how things work under the hood and pushing my limits every day.
+      I am passionate about technology, ethical hacking, and system-level learning.
+      I enjoy breaking things to understand how they work and building powerful digital identities.
     </p>
   </section>
 
-  <!-- SKILLS -->
-  <section id="skills" class="glass reveal">
-    <h2>⚡ Skills</h2>
-    <div class="skills">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>Linux</span>
-      <span>Cybersecurity</span>
-      <span>Customization</span>
-      <span>Gaming</span>
+  <!-- PROJECTS -->
+  <section id="projects" class="glass reveal">
+    <h2>🚀 Projects</h2>
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Elite hacker-style portfolio hosted on GitHub Pages.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Linux Notes</h3>
+        <p>Personal Linux commands & learning documentation.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Cybersecurity Basics</h3>
+        <p>Fundamentals of ethical hacking & security concepts.</p>
+      </div>
+
     </div>
+  </section>
+
+  <!-- TERMINAL -->
+  <section id="terminal" class="glass reveal terminal">
+    <h2>💻 Hacker Terminal</h2>
+    <pre id="terminal-text"></pre>
   </section>
 
   <!-- CONNECT -->
   <section id="connect" class="glass reveal">
-    <h2>🔗 Connect</h2>
+    <h2>🔗 Connect With Me</h2>
     <div class="links">
       <a href="https://github.com/PavanShetty123" target="_blank">GitHub</a>
       <a href="https://www.youtube.com/@InsaneGamingbypavan" target="_blank">YouTube</a>
     </div>
   </section>
-
-  <footer>
-    © 2025 Pavan Kumar • Elite Web Identity
-  </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
