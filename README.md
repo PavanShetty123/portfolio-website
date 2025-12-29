@@ -1,2 +1,1 @@
-# portfolio-website
-My personal website hosted on GitHub Pages
+https://pavanshetty123.github.io/resume-site/
